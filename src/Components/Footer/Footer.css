@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    
+    overflow: hidden;
+    margin-top: auto ;
+    background-color: rgba(67, 3, 3, 0.827);
+ 
+  }
+  
+  footer a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    color: #fff;
+    margin-left: auto;
+    padding-right: 15px;
+  }
+  
+  .flex-align-left {
+    margin-left: auto;
+  }
+  
+  @media screen and (max-width: 700px) {
+    footer {
+      flex-direction: column;
+      padding: 10px 0px;
+    }
+  
+    .flex-align-left {
+      margin-left: 0;
+    }
+  }
+

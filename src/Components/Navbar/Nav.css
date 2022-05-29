@@ -1,0 +1,51 @@
+#about{
+    font-style: normal;
+    font-family: "Inter Sans serif";
+    font-weight: 500;
+    font-size: 27px;
+    line-height: -1px;
+    letter-spacing: 0.05em;
+    margin-left: 260px;
+    text-shadow: rgb(19, 8, 29) 0px 0px 10px;
+    transition:0.3s;
+    color: black;
+}
+
+#about:hover{
+   color: azure;
+   font-size: 29px;
+}
+
+#sponsor{
+    font-style: normal;
+    font-family: "Inter Sans serif";
+    font-weight: 520;
+    font-size: 27px;
+    line-height: -1px;
+    letter-spacing: 0.05em;
+    margin-left:90px;
+    text-shadow: rgb(19, 8, 29) 0px 0px 10px;
+    color: black;
+}
+
+#sponsor:hover{
+    color: azure;
+    font-size: 29px;
+}
+
+#reg{
+    font-style: normal;
+    font-family: "Inter Sans serif";
+    font-weight: 520;
+    font-size: 27px;
+    line-height: -1px;
+    letter-spacing: 0.05em;
+    margin-left:90px;
+    color: black;
+    text-shadow: rgb(19, 8, 29) 0px 0px 10px;
+}
+
+#reg:hover{
+    color: azure;
+    font-size: 29px;
+}
