@@ -1,6 +1,7 @@
 import React from 'react'
 import './Nav.css';
 import Logo from './IEEE Logo.png'
+import Logo1 from './Salesforce Logo.png'
 
 export default function Navbar() {
   return (
@@ -11,6 +12,10 @@ export default function Navbar() {
       <span className="logo">
        <a href="https://www.ieeesrmist.in/">
       <img src={Logo} height="50" width="120" style={{"margin-left":"20px"}} alt="IEEE LOGO" /></a>
+      </span>
+      <span className="logo1">
+       <a href="/">
+      <img src={Logo1} height="60" width="60" style={{"margin-left":"10px"}} alt="SALESFORCE LOGO" /></a>
       </span>
         </div>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
