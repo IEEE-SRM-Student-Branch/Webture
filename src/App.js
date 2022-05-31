@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+/**
+ * App
+ */
+
+// Dependencies
 import './App.css';
+import AboutIEEE from './components/AboutIEEE/AboutIEEE';
+import AboutWebture from './components/AboutWebture/AboutWebture';
+import Footer from './components/Footer/Footer';
+import Landing from './components/Landing/Landing';
+import Navbar from './components/Navbar/Navbar';
+import RegButton from './components/RegButton/RegButton';
+import Sponsor from './components/Sponsor/Sponsor';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Landing />
+      <AboutWebture />
+      <AboutIEEE />
+      <Sponsor />
+      <RegButton/>
+      <Footer />
     </div>
   );
 }
