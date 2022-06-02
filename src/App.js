@@ -1,3 +1,4 @@
+
 /**
  * App
  */
@@ -10,7 +11,8 @@ import Footer from './components/Footer/Footer';
 import Landing from './components/LandingPage/LandingPage';
 import Navbar from './components/Navbar/Navbar';
 import RegButton from './components/RegButton/RegButton';
-import Sponsor from './components/Sponsor/Sponsor';
+import Sponsors from './components/sponsors/Sponsors.jsx';
+
 
 function App() {
   return (
@@ -19,9 +21,10 @@ function App() {
       <Landing />
       <AboutWebture />
       <AboutIEEE />
-      <Sponsor />
+      <Sponsors />
       <RegButton/>
       <Footer />
+
     </div>
   );
 }
