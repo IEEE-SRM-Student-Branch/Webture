@@ -7,7 +7,9 @@ import React from 'react';
 
 function AboutWebture() {
   return (
-    <div>AboutWebture</div>
+    <div>
+      
+    </div>
   )
 }
 

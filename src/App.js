@@ -24,7 +24,6 @@ function App() {
       <Sponsors />
       <RegButton/>
       <Footer />
-
     </div>
   );
 }
