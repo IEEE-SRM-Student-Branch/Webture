@@ -1,0 +1,15 @@
+.landingpage-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img{
+  width: 70vw;
+}
