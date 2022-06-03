@@ -1,8 +1,98 @@
 /* About Webture */
 
 .container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 1em;
+}
+
+.container__browser {
+	display: flex;
+	flex-direction: column;
+    width: clamp(200px, 100%, 800px);
+}
+
+.browser__tab {
+    display: flex;
+	align-items: center;
+	background-color: #8ac3cf;
+	padding: 0.75em 0.5em .5em;
+	border-radius: 20px 20px 0 0;
+	gap: 1em;
+	width: fit-content;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    position: relative;
+}
+
+.browser__tab .tab-design {
     width: 100%;
-    height: 100vh;
-    display: grid;
-    place-items: center;
+    height: 4px;
+    position: absolute;
+	background-color: #8ac3cf;
+    content: "";
+    top: 100%;
+    left: 0;
+}
+
+.browser__navigation {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+    background-color: #8AC3CF;
+    padding: .5em;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 100%;
+}
+
+.browser__navigation-url {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: #FFEDD1;
+    padding: .25em .5em;
+    border-radius: 20px;
+    border: solid 2px #000;
+    padding-right: 5em;
+}
+
+.browser__body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: .5em;
+    background-color: #8AC3CF;
+}
+
+.browser__body-content {
+    background-color: #FFEDD1;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+}
+
+@media screen and (max-width: 600px) {
+
+    .browser__tab {
+        font-size: 12px;
+    }
+
+    .browser__navigation {
+        font-size: 12px;
+    }
+
+    .browser__navigation-url {
+        padding-right: 1em;
+    }
 }
