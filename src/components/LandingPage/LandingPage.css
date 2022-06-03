@@ -9,7 +9,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .image-container img{
   width: 70vw;
+}
+
+.landing-url{
+  border: 2px solid black;
+  position: absolute;
+  top: 21%;
+  left: 22%;
+
+  width: 22.552vw;
+  height: 5%;
+  
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.563vw;
+
+  text-align: justify;
+  letter-spacing: 0.05em;
+
+  background-color: #ffedd1;
+
+}
+
+.landing-title{
+  border: 2px solid green;
+  position: absolute;
+  top: 50%;
+
+  width: 56.25%;
+  height: 14%;
+
+  font-family: 'Erica One', cursive;
+  font-weight: 400;
+  font-size: 3.125vw;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  background-color: #ffedd1;
 }
