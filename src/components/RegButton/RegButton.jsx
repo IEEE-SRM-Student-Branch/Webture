@@ -4,17 +4,18 @@
 
 // Dependencies
 import React from 'react';
+import { Popover } from '@typeform/embed-react';
 
 function RegButton() {
     return (
-        <div
-            data-tf-popover="Crhhk5pS"
-            data-tf-tooltip="Click here to Register"
-            data-tf-custom-icon="https://images.typeform.com/images/TztgEuKUG3UM"
-            data-tf-button-color="#0445AF"
+        <Popover
+            id="Crhhk5pS"
+            tooltip='Click here to Register'
+            buttonColor='#0445AF'
             data-tf-button-text="Launch me"
-            data-tf-iframe-props="title=IEEE Bootcamp Testing"
-            data-tf-medium="snippet" style={{ all: 'unset' }}
+            medium='snippet'
+            customIcon='https://images.typeform.com/images/TztgEuKUG3UM'
+            autoClose={1000}
         />
     )
 }
