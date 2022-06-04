@@ -7,28 +7,28 @@ import React, { useState, useEffect } from "react";
 import "./LandingPage.css";
 
 function LandingPage() {
-  const [participantCount, setParticipantCount] = useState(0);
+  // const [participantCount, setParticipantCount] = useState(0);
 
-  useEffect(() => {
-    const fetchParticipantsCount = async () => {
-      try {
-        const response = await fetch(
-          "https://ieee-webture.herokuapp.com/api/participants-count"
-        );
-        const data = await response.json();
-        setParticipantCount(data.data.participants.count);
-      } catch (error) {
-        setParticipantCount(0);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchParticipantsCount = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         "https://ieee-webture.herokuapp.com/api/participants-count"
+  //       );
+  //       const data = await response.json();
+  //       setParticipantCount(data.data.participants.count);
+  //     } catch (error) {
+  //       setParticipantCount(0);
+  //     }
+  //   };
 
-    const FETCH_TIME = 1000 * 30; // Every 30 seconds
-    const intervalId = setInterval(fetchParticipantsCount, FETCH_TIME);
+  //   const FETCH_TIME = 1000 * 30; // Every 30 seconds
+  //   const intervalId = setInterval(fetchParticipantsCount, FETCH_TIME);
 
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(intervalId);
+  //   };
+  // }, []);
 
   return (
     <div className="container-fluid">
