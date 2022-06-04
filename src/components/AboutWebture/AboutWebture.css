@@ -1,28 +1,29 @@
-/* About Webture */
-
-.container {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.about {
+    height: 160vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1em;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .container__browser {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
     width: clamp(200px, 100%, 800px);
 }
 
 .browser__tab {
     display: flex;
-	align-items: center;
-	background-color: #8ac3cf;
-	padding: 0.75em 0.5em .5em;
-	border-radius: 20px 20px 0 0;
-	gap: 1em;
-	width: fit-content;
+    align-items: center;
+    background-color: #8ac3cf;
+    padding: 0.75em 0.5em .5em;
+    border-radius: 20px 20px 0 0;
+    gap: 1em;
+    width: fit-content;
     border-top: 2px solid #000;
     border-right: 2px solid #000;
     border-left: 2px solid #000;
@@ -33,16 +34,16 @@
     width: 100%;
     height: 4px;
     position: absolute;
-	background-color: #8ac3cf;
+    background-color: #8ac3cf;
     content: "";
     top: 100%;
     left: 0;
 }
 
 .browser__navigation {
-	display: flex;
-	align-items: center;
-	gap: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
     background-color: #8AC3CF;
     padding: .5em;
     border-top: 2px solid #000;
@@ -83,7 +84,23 @@
     border: 2px solid #000;
 }
 
-@media screen and (max-width: 600px) {
+
+.browser__body-content q {
+
+    font-family: 'Now Alt', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+@media screen and (max-width: 720px) {
+    .about {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     .browser__tab {
         font-size: 12px;
@@ -96,4 +113,14 @@
     .browser__navigation-url {
         padding-right: 1em;
     }
+}
+
+@media screen and (max-width: 450px) {
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .browser__body-content q {
+        font-size: 14px;
+}
 }

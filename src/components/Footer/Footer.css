@@ -1,0 +1,20 @@
+.footer {
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.rights a {
+    text-decoration: none;
+    color: red;
+    margin-right: 10px;
+    font-family: 'Now Alt', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+@media (max-width: 720px){
+    .rights a {font-size: 14px;}
+}

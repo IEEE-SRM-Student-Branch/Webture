@@ -1,15 +1,105 @@
-.landingpage-container{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.landingpage {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 1em;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-.image-container{
-  border: 2px solid red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.landingpage .container__browser {
+	display: flex;
+	flex-direction: column;
+    width: clamp(200px, 100%, 800px);
 }
-.image-container img{
-  width: 70vw;
+
+.landingpage .browser__tab {
+    display: flex;
+	align-items: center;
+	background-color: #efa593;
+	padding: 0.75em 0.5em .5em;
+	border-radius: 20px 20px 0 0;
+	gap: 1em;
+	width: fit-content;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    position: relative;
+}
+
+.landingpage .browser__tab .tab-design {
+    width: 100%;
+    height: 4px;
+    position: absolute;
+	background-color: #efa593;
+    content: "";
+    top: 100%;
+    left: 0;
+}
+
+.landingpage .browser__navigation {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+    background-color: #efa593;
+    padding: .5em;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 100%;
+}
+
+.landingpage .browser__navigation-url {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background-color: #FFEDD1;
+    padding: .25em .5em;
+    border-radius: 20px;
+    border: solid 2px #000;
+    padding-right: 5em;
+}
+
+.landingpage .browser__body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: .5em;
+    background-color: #efa593;
+}
+
+.landingpage .browser__body-content {
+    background-color: #FFEDD1;
+    width: 100%;
+    height: 100%;
+    padding: 5em 15em 5em 15em ;
+    border: 2px solid #000;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .landingpage{
+      border-right: 0px;
+      border-left: 0px;
+    }
+    .landingpage .browser__tab {
+        font-size: 12px;
+    }  
+    .landingpage .browser__navigation {
+        font-size: 12px;
+    }    
+    .landingpage .browser__navigation-url {
+        padding-right: 1em;
+    }
+    .landingpage .browser__body-content{
+    padding: 5em 5em 5em 5em;
+    }
 }

@@ -5,7 +5,6 @@
 
 // Dependencies
 import './App.css';
-import AboutIEEE from './components/AboutIEEE/AboutIEEE';
 import AboutWebture from './components/AboutWebture/AboutWebture';
 import Footer from './components/Footer/Footer';
 import Landing from './components/LandingPage/LandingPage';
@@ -20,9 +19,8 @@ function App() {
       <Navbar />
       <Landing />
       <AboutWebture />
-      <AboutIEEE />
       <Sponsors />
-      <RegButton/>
+      <RegButton />
       <Footer />
     </div>
   );

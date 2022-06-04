@@ -15,6 +15,7 @@ function RegButton() {
             data-tf-button-text="Launch me"
             medium='snippet'
             customIcon='https://images.typeform.com/images/TztgEuKUG3UM'
+            autoClose={1000}
         />
     )
 }
