@@ -11,10 +11,10 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light  sticky-top " style={{ "background": "#97CCCF" }}>
 
-        <div className="navbar-brand" href="/" toggleNavKey={0} >
+        <div className="navbar-brand" href="/" togglenavkey={0} >
           <span className="logo">
             <a href="https://www.ieeesrmist.in/">
-              <img src={Logo} height="50" width="120" style={{ "margin-left": "20px" }} alt="IEEE LOGO" /></a>
+              <img src={Logo} height="50" width="120" style={{ marginLeft: "20px" }} alt="IEEE LOGO" /></a>
           </span>
 
         </div>
