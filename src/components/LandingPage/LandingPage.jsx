@@ -20,6 +20,7 @@ function LandingPage() {
       }
     }
 
+    fetchParticipantsCount();
     const FETCH_TIME = 1000 * 30; // Every 30 seconds
     const intervalId = setInterval(fetchParticipantsCount, FETCH_TIME);
 
