@@ -5,7 +5,7 @@ import "./AboutWebture.css";
 function AboutWebture() {
   return (
     <div className="container-fluid">
-      <div className="about">
+      <div className="about" id="about">
         {/* Browser Container */}
         <div className="container__browser">
           {/* Browser Tab */}
