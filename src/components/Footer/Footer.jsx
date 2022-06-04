@@ -15,13 +15,25 @@ function Footer() {
         </h3>
       </div>
       <div className="rights">
-        <a href="https://www.ieeesrmist.in/privacypolicy" target="_blank">
+        <a
+          href="https://www.ieeesrmist.in/privacypolicy"
+          target="_blank"
+          rel="noreferrer"
+        >
           Privacy
         </a>
-        <a href="https://hacktrix.ieeesrmist.in/" target="_blank">
+        <a
+          href="https://hacktrix.ieeesrmist.in/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Terms
         </a>
-        <a href="https://devfolio.co/code-of-conduct" target="_blank">
+        <a
+          href="https://devfolio.co/code-of-conduct"
+          target="_blank"
+          rel="noreferrer"
+        >
           Code of conduct
         </a>
       </div>
