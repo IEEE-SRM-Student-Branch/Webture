@@ -59,7 +59,7 @@ body {
 }
 
 .sponsor-details img {
-    
+    object-fit: contain;
     width: 150px;
     height: 150px;
 }
