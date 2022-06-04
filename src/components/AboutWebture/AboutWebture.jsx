@@ -12,7 +12,7 @@ function AboutWebture() {
           {/* Browser Tab */}
           <div className='browser__tab'>
             <span>Awesome Web Browser</span>
-            <i class="fa-solid fa-xmark"></i>
+            <i className="fa-solid fa-xmark"></i>
             <div className='tab-design'></div>
           </div>
 

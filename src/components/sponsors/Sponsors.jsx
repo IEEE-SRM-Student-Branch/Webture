@@ -16,7 +16,7 @@ const Sponsor = () => {
         <div className="sponsor">
             {info.map((e) => {
                 return (
-                    <div className="sponsor-details">
+                    <div className="sponsor-details" key={e.name}>
                         <img src={e.src} alt={e.name} />
 
                     </div>
