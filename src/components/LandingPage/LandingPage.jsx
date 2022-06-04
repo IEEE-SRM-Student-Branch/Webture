@@ -21,10 +21,9 @@ function LandingPage() {
   //       setParticipantCount(0);
   //     }
   //   };
-
-  //   const FETCH_TIME = 1000 * 30; // Every 30 seconds
-  //   const intervalId = setInterval(fetchParticipantsCount, FETCH_TIME);
-
+  //  fetchParticipantsCount();
+  //  const FETCH_TIME = 1000 * 30; // Every 30 seconds
+  //  const intervalId = setInterval(fetchParticipantsCount, FETCH_TIME);
   //   return () => {
   //     clearInterval(intervalId);
   //   };
