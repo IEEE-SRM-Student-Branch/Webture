@@ -1,6 +1,6 @@
 import { team } from "./team";
 import "./team-styles.scss";
-import { ReactComponent as Logo } from "./ieee-mask.svg";
+// import { ReactComponent as Logo } from "./ieee-mask.svg";
 
 const Teams = () => {
   return (
