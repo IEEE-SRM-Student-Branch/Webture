@@ -1,0 +1,61 @@
+.teamsWrapper {
+  min-height: 100vh;
+  background-color: #151515;
+  padding: 2rem 1rem;
+  color: whitesmoke;
+  h1 {
+    font-size: 26pt;
+    text-align: center;
+
+    padding: 2rem 0 0;
+  }
+
+  .subtitle {
+    // font-size: 16pt;
+    text-align: center;
+    color: #888;
+    margin-bottom: 2rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  article {
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    background-color: #1a1a1a;
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    img {
+      width: 15vw;
+      height: 15vw;
+      min-height: 60px;
+      min-width: 60px;
+      max-width: 120px;
+      max-height: 120px;
+      object-fit: cover;
+      border-radius: 60px;
+      margin-right: 1.5rem;
+    }
+
+    .content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .name {
+      font-size: 18pt;
+    }
+
+    .ctas {
+      display: flex;
+      gap: 0.75rem;
+    }
+  }
+}

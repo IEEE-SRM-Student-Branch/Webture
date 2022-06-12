@@ -36,17 +36,12 @@ function Navbar() {
         </div>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav mt-3 ">
-            <a
-              href="/about"
-              className="nav-item nav-link active text-center "
-              id="about"
-            >
+            <a href="#about" className="nav-item nav-link active text-center ">
               <h3>About</h3>
             </a>
             <a
-              href="/sponser"
+              href="#sponser"
               className="nav-item nav-link active text-center "
-              id="sponsor"
             >
               <h3>Sponsors</h3>
             </a>

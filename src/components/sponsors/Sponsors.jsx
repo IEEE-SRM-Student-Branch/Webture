@@ -12,7 +12,7 @@ const info = [
 
 const Sponsor = () => {
   return (
-    <div className="sponsor">
+    <div className="sponsor" id="sponsor">
       {info.map((e) => {
         return (
           <div className="sponsor-details" key={e.name}>
