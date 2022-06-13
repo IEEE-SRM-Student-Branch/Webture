@@ -5,7 +5,7 @@ import "./team-styles.scss";
 const Teams = () => {
   return (
     <main className="teamsWrapper">
-      <h1>Our Speakers</h1>
+      <h1>Our Team</h1>
       <div className="subtitle">Thank you for attending Webture!</div>
       {/* <Logo className="mask-logo" /> */}
       <section>
